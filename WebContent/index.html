@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Practica 28</title>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+
+	<h2>Exercise1 Practica de boton</h2>
+	<form class="form-group" action="WelcomeServlet" method="post">
+
+		<input class="btn btn-success" type="submit" value="show message">
+
+	</form>
+	<hr/>
+	
+	
+	<h2>Exercise2 Practica welcome message</h2>
+	<form class="form-group" action="TunnedWelcomeServlet" method="post">
+		
+		<p>
+			<label for="txtMessage">Message</label>
+			<input class="form-control" type="text" id=txtMessage name="txtMessage">
+		</p>
+		<input class="btn btn-success" type="submit" value="show tunned message">
+
+	</form>
+	
+	
+	<h2>Exercise 3 Addition of two numbers</h2>
+	<form class="form-group" action="AdditionTwoNumbersServlet" method="post">
+	
+		<p>
+				<label for="txtNumber1">Input Number 1: </label>
+				<input class="form-control" type="text" id=txtNumber1 name="txtNumber1">
+		</p>
+		
+		<p>		
+				<label for="txtNumber2">Input Number 2: </label>
+				<input class="form-control" type="text" id=txtNumber2 name="txtNumber2">
+		</p>
+	
+	<input class="btn btn-success" type="submit" value="Add Both Numbers">
+	</form>
+	
+	
+	<h2>Exercise 4 Prime Number</h2>
+	<form class="form-group" action="PrimeNumberServlet" method="post">
+	
+		<p>
+				<label for="txtPrimeNumber">Input a Number: </label>
+				<input class="form-control" type="text" id=txtPrimeNumber name="txtPrimeNumber">
+		</p>
+
+	
+	<input class="btn btn-success" type="submit" value="Check Prime Number">
+	</form>
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script> 
+</body>
+</html>
